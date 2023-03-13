@@ -1,0 +1,6 @@
+device_name = "MOSART Semi. 2.4G Keyboard Mouse"
+
+[[dual_role]]
+input = "KEY_CAPSLOCK"
+hold = ["KEY_LEFTCTRL"]
+tap = ["KEY_ESC"]

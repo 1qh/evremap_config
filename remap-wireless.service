@@ -1,0 +1,7 @@
+[Service]
+WorkingDirectory=/
+ExecStart=bash -c "evremap remap /home/o/arch/evremap/wireless.toml"
+Restart=always
+
+[Install]
+WantedBy=NetworkManager.service
